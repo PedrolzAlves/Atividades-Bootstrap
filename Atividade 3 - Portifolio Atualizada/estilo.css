@@ -1,0 +1,78 @@
+#header1{
+    background-image: url(img/pexels-tima-miroshnichenko-7567443.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#header2{
+    background-image: url(img/pexels-luis-gomes-166706-546819.jpg);
+
+}
+
+#header3{
+    background-image: url(img/pexels-luis-gomes-166706-546819.jpg);
+}
+
+@keyframes slide {
+    0%{background-image: url(img/pexels-bemistermister-2442888.jpg);}
+    25%{background-image: url(img/pexels-karolina-grabowska-5717758.jpg);}
+    50%{background-image: url(img/pexels-luis-gomes-166706-546819.jpg);}
+    100%{background-image: url(img/pexels-tima-miroshnichenko-7567443.jpg);}
+
+}
+
+#perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+}
+
+#col-md-6{
+    margin-left: 200px;
+}
+
+header{
+    border-top: 1px solid rgb(39, 39, 39);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.nav-link:active{
+    text-decoration: underline;
+    font-weight: 600;
+} 
+
+h3{
+    text-align: center;
+}
+
+p.conteudo{
+    text-align: justify;
+    text-indent: 4em;
+}
+
+.card{
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.card button:hover{
+    transform: scale(1.05);
+}
+
+
+

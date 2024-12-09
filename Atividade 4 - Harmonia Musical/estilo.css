@@ -1,0 +1,79 @@
+.navbar-nav .nav-item + .nav-item{
+    margin-left: 100px;
+}
+
+.navbar-nav .nav-item .active{
+    text-decoration: underline blueviolet;
+}
+
+#btn_aboutus{
+    color: white;
+    background-color: blueviolet;
+}
+
+.produto{
+    overflow: hidden;
+    transition: 5s ease;
+}
+
+.card .produto:hover{
+    overflow: hidden;
+    transition: 5s ease;
+}
+
+
+
+
+#btn-form{
+    color: white;
+    background-color: blueviolet;
+}
+
+#btn-form:hover{
+    color: white;
+    background-color: rgb(94, 23, 160);
+}
+
+#formulario{
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+}
+
+#final{
+    display: inline-flex;
+}
+
+#cliente{
+   margin: auto;
+    max-width: 60%;
+
+}
+.caminho{
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+.preco{
+    color:blueviolet;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color:black
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+
+.carousel-indicators .active{
+    background-color: blueviolet;
+}
+
+#carrinho{
+    background-color: blueviolet;
+}
+
+#card_avaliacao{
+    height: 220px;
+}
+

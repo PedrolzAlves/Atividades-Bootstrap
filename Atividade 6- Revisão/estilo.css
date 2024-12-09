@@ -1,0 +1,13 @@
+banner{
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    background-color: rgb(240, 240, 240);
+}
+
+
